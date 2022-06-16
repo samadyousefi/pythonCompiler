@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/samad/PyIDE/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-h550dp-port-v13/values-h550dp-port-v13.xml",
+            "map": [
+                {
+                    "source": "/home/samad/.gradle/caches/transforms-3/21985625532c0e9cd69c0fbdda03cebc/transformed/material-1.4.0/res/values-h550dp-port-v13/values-h550dp-port-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "76",
+                        "endOffsets": "127"
+                    }
+                }
+            ]
+        }
+    ]
+}

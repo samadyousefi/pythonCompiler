@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/samad/PyIDE/app/build/intermediates/incremental/mergeReleaseResources/stripped.dir/layout/activity_about.xml",
+        "source": "/home/samad/PyIDE/app/src/main/res/layout/activity_about.xml"
+    },
+    {
+        "merged": "/home/samad/PyIDE/app/build/intermediates/incremental/mergeReleaseResources/stripped.dir/layout/activity_code.xml",
+        "source": "/home/samad/PyIDE/app/src/main/res/layout/activity_code.xml"
+    },
+    {
+        "merged": "/home/samad/PyIDE/app/build/intermediates/incremental/mergeReleaseResources/stripped.dir/layout/activity_main.xml",
+        "source": "/home/samad/PyIDE/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/samad/PyIDE/app/build/intermediates/incremental/mergeReleaseResources/stripped.dir/layout/activity_splashscreen.xml",
+        "source": "/home/samad/PyIDE/app/src/main/res/layout/activity_splashscreen.xml"
+    }
+]

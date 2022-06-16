@@ -1,0 +1,10 @@
+com/example/pyide/BuildConfig.java
+ com.example.pyide.BuildConfig
+com/example/pyide/databinding/ActivitySplashscreenBinding.java
+ com.example.pyide.databinding.ActivitySplashscreenBinding
+com/example/pyide/databinding/ActivityMainBinding.java
+ com.example.pyide.databinding.ActivityMainBinding
+com/example/pyide/databinding/ActivityCodeBinding.java
+ com.example.pyide.databinding.ActivityCodeBinding
+com/example/pyide/databinding/ActivityAboutBinding.java
+ com.example.pyide.databinding.ActivityAboutBinding
