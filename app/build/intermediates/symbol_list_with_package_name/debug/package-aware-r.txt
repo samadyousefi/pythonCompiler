@@ -1833,8 +1833,6 @@ drawable ic_mtrl_chip_close_circle
 drawable ic_telegram
 drawable ic_whatsapp
 drawable logo
-drawable logomain
-drawable logopyide
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -1869,10 +1867,6 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
-drawable pro
-drawable py
-drawable pyidelogo
-drawable python
 drawable radio_flat_regular
 drawable radio_flat_selected
 drawable radio_flat_selector
@@ -2332,6 +2326,8 @@ id test_radiobutton_android_button_tint
 id test_radiobutton_app_button_tint
 id text
 id text2
+id textCountLetters
+id textCountNumber
 id textEnd
 id textSpacerNoButtons
 id textSpacerNoTitle

@@ -35,14 +35,13 @@
                 android:background="@drawable/custom_progress_level"
                 android:fontFamily="sans-serif-light"
                 android:gravity="bottom"
-                android:hint="write python"
+                android:hint="print(&quot;Hello Word&quot;)"
                 android:inputType="textMultiLine"
                 android:overScrollMode="ifContentScrolls"
                 android:padding="10dp"
                 android:scrollbars="vertical"
-                android:text='print("Hello Word")'
                 android:textColor="@color/black"
-                android:textColorHint="@color/white"
+                android:textColorHint="#B9C6CC"
                 android:textSize="20sp"
                 android:verticalScrollbarPosition="right"
                 tools:ignore="SpeakableTextPresentCheck" />
@@ -67,6 +66,7 @@
             android:layout_marginEnd="283dp"
             android:alpha="0.8"
             android:tint="@color/logo_background"
+            android:visibility="invisible"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/run"
             app:layout_constraintStart_toStartOf="parent"
@@ -80,8 +80,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:text="yerdanksa"
-            android:textColor="#9AC3C6"
-            android:textSize="12sp"
+            android:textColor="@color/logo_background"
+            android:textSize="14sp"
             android:textStyle="bold"
             app:layout_constraintHorizontal_bias="0.204"
             app:layout_constraintLeft_toLeftOf="parent"
@@ -94,7 +94,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="24dp"
-            android:text="Python compiler "
+            android:text="time"
             android:textSize="12sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintHorizontal_bias="0.219"
@@ -103,11 +103,41 @@
             app:layout_constraintStart_toEndOf="@+id/imageView2"
             app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:alpha="0.5"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/run"
+            app:layout_constraintHorizontal_bias="0.92"
+            app:layout_constraintStart_toEndOf="@+id/textView4"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.5">
+
+            <TextView
+                android:id="@+id/textCountNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/autour_one"
+                android:text="0"
+                android:textColor="#9AC3C6"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textCountLetters"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/autour_one"
+                android:text="0"
+                android:textColor="#9AC3C6"
+                android:textSize="12sp" />
+        </LinearLayout>
+
         <ImageView
             android:id="@+id/run"
             android:layout_width="0dp"
             android:layout_height="40dp"
-            android:layout_marginTop="4dp"
             android:layout_marginEnd="8dp"
             android:tint="@color/logo_background"
             app:layout_constraintBottom_toBottomOf="parent"
