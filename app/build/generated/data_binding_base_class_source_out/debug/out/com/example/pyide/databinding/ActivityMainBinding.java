@@ -38,6 +38,12 @@ public final class ActivityMainBinding implements ViewBinding {
   public final ImageView run;
 
   @NonNull
+  public final TextView textCountLetters;
+
+  @NonNull
+  public final TextView textCountNumber;
+
+  @NonNull
   public final TextView textView3;
 
   @NonNull
@@ -45,13 +51,16 @@ public final class ActivityMainBinding implements ViewBinding {
 
   private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull EditText codearea,
       @NonNull ImageView imageView2, @NonNull ConstraintLayout lo, @NonNull ProgressBar progressBar,
-      @NonNull ImageView run, @NonNull TextView textView3, @NonNull TextView textView4) {
+      @NonNull ImageView run, @NonNull TextView textCountLetters, @NonNull TextView textCountNumber,
+      @NonNull TextView textView3, @NonNull TextView textView4) {
     this.rootView = rootView;
     this.codearea = codearea;
     this.imageView2 = imageView2;
     this.lo = lo;
     this.progressBar = progressBar;
     this.run = run;
+    this.textCountLetters = textCountLetters;
+    this.textCountNumber = textCountNumber;
     this.textView3 = textView3;
     this.textView4 = textView4;
   }
@@ -113,6 +122,18 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.textCountLetters;
+      TextView textCountLetters = ViewBindings.findChildViewById(rootView, id);
+      if (textCountLetters == null) {
+        break missingId;
+      }
+
+      id = R.id.textCountNumber;
+      TextView textCountNumber = ViewBindings.findChildViewById(rootView, id);
+      if (textCountNumber == null) {
+        break missingId;
+      }
+
       id = R.id.textView3;
       TextView textView3 = ViewBindings.findChildViewById(rootView, id);
       if (textView3 == null) {
@@ -126,7 +147,7 @@ public final class ActivityMainBinding implements ViewBinding {
       }
 
       return new ActivityMainBinding((ConstraintLayout) rootView, codearea, imageView2, lo,
-          progressBar, run, textView3, textView4);
+          progressBar, run, textCountLetters, textCountNumber, textView3, textView4);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

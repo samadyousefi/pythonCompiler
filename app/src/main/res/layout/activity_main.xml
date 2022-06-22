@@ -120,8 +120,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/autour_one"
-                android:text="0"
-                android:textColor="#9AC3C6"
+                android:text="Numbers : "
+                android:textColor="#628487"
                 android:textSize="12sp" />
 
             <TextView
@@ -129,8 +129,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/autour_one"
-                android:text="0"
-                android:textColor="#9AC3C6"
+                android:text="Letters : "
+                android:textColor="#628487"
                 android:textSize="12sp" />
         </LinearLayout>
 
